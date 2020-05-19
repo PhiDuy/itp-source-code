@@ -1,6 +1,6 @@
 ## Thiết kế và xây dựng ứng dụng kỉ niệm 70 năm Hội sinh viên Thành phố Hồ Chí Minh và 10 năm Hội sinh viên trường Đại học Công Nghệ Thông Tin - ĐHQG TP.HCM
 
-> Tác giả: [Võ Phi Nhật Duy](https://www.facebook.com/NTBGN/)
+Tác giả: [Võ Phi Nhật Duy](https://www.facebook.com/NTBGN/)
 
 ### Môi trường cần thiết để chạy ứng dụng:
 
@@ -18,8 +18,8 @@
 - Ứng dụng được chia thành các folder bao gồm: api, modules, services để tiện cho việc quản lý.
   1. Folder api để chứa API cần thiết của các route.
   2. Folder modules chứa các module chia nhỏ theo route.
-    2.1 Folder common chứa các component có thể tái sử dụng trong source code.
-  3. Folder services chứa các service tự viết.
+  3. Folder common chứa các component có thể tái sử dụng trong source code.
+  4. Folder services chứa các service tự viết.
 
 ### Đôi lời của tác giả:
 
@@ -27,4 +27,4 @@
 2. Vì yêu cầu bên Hội sinh viên nên em có tự thiết kế và xây dựng trang web không sử dụng bất kì template nào.
 3. Mong anh chị thông cảm về sự bất tiện của source code khi có sử dụng về Jquery.
 
-> Em xin cảm ơn anh chỉ đã dành thời gian xem qua ạ. Chúc anh chị có một ngày làm việc hiệu quả.
+Em xin cảm ơn anh chỉ đã dành thời gian xem qua ạ. Chúc anh chị có một ngày làm việc hiệu quả.
