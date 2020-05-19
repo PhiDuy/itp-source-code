@@ -1,0 +1,22 @@
+/**
+ * @file constants
+ */
+export const TOGGLE_MODAL = "HOME_PAGE/TOGGLE_MODAL";
+/*---------------------------------------------------------------------*/
+export const GET_BACKGROUND = "HOME_PAGE/GET_BACKGROUND";
+export const GET_BACKGROUND_SUCCESS = "HOME_PAGE/GET_BACKGROUND_SUCCESS";
+export const GET_BACKGROUND_FAIL = "HOME_PAGE/GET_BACKGROUND_FAIL";
+
+export const GET_POSTS_BY_YEAR = "HOME_PAGE/GET_POSTS_BY_YEAR";
+export const GET_POSTS_BY_YEAR_SUCCESS = "HOME_PAGE/GET_POSTS_BY_YEAR_SUCCESS";
+export const GET_POSTS_BY_YEAR_FAIL = "HOME_PAGE/GET_POSTS_BY_YEAR_FAIL";
+
+/*---------------------------------------------------------------------*/
+export const HANDLE_GENERATE_YEAR = "HOME_PAGE/HANDLE_GENERATE_YEAR";
+export const HANDLE_CUR_POST = "HOME_PAGE/HANDLE_CUR_POST";
+export const HANDLE_CUR_YEAR = "HOME_PAGE/HANDLE_CUR_YEAR";
+export const HANDLE_INPUT_CHANGE = "HOME_PAGE/HANDLE_INPUT_CHANGE";
+export const HANDLE_PAGE_CHANGE = "HOME_PAGE/HANDLE_PAGE_CHANGE";
+
+export const HANDLE_CLEAR = "HOME_PAGE/HANDLE_CLEAR";
+export const HANDLE_CLEAR_UNMOUNT = "HOME_PAGE/HANDLE_CLEAR_UNMOUNT";

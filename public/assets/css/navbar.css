@@ -1,0 +1,129 @@
+/* reset */
+
+#menu-container {
+  position: fixed;
+  /* overflow: hidden; */
+  z-index: 120;
+}
+
+
+#menu-container.active {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+#menu-container label {
+  cursor: pointer;
+}
+#menu-container label:focus {
+  outline: none;
+}
+.menu,
+.sub-menu {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 240px;
+  height: 100%;
+  transform: translate3d(-240px, 0, 0);
+  transition: transform 0.35s;
+  box-shadow: 2px 0 18px rgba(0, 0, 0, 0.26);
+}
+.sub-menu ul {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: #000;
+}
+.sub-menu ul::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+.menu label.menu-toggle,
+.sub-menu label.sub-menu-control {
+  position: absolute;
+  top: 0;
+  right: -40px;
+  width: 40px;
+  height: 40px;
+  line-height: 0px;
+  display: block;
+  padding: 0;
+  text-indent: -9999px;
+  background: rgba(250, 250, 250, 0.9)
+    url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png)
+    50% 50%/25px 25px no-repeat;
+  border-bottom-right-radius: 10px;
+}
+.menu ul li .logo {
+  height: 30px;
+}
+.menu ul li .logo img {
+  height: 100%;
+}
+.menu ul li > label {
+  background: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-right-b-128.png)
+    95% 50%/16px 16px no-repeat;
+}
+.menu ul li  {
+  margin: 10px;
+}
+
+.menu ul li a,
+.menu ul li label {
+  display: block;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  line-height: 40px;
+  font-weight: 550;
+}
+.menu ul li a:hover,
+.menu ul li label:hover {
+  color: #288ecc;
+}
+.sub-menu-style a {
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px !important;
+  padding: 10px 20px !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.menu.toggle label.menu-toggle {
+  background: #fff
+    url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png)
+    50% 50%/25px 25px no-repeat;
+}
+
+/* hide navigation icon for sublabels */
+.menu .sub-menu label.sub-menu-control {
+  background: none;
+}
+
+/* fade in checked menu */
+.menu.toggle,
+.sub-menu.toggle {
+  transform: translate3d(0, 0, 0);
+}
+
+.menu .footer-logo {
+  border-top: 1px solid rgba(0, 0, 0, 0.26);
+  padding: 5px 0;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+}
+.menu .footer-logo img {
+  height: 100%;
+}
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  .footer-logo {
+    display: none;
+  }
+}
