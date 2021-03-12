@@ -60,7 +60,7 @@
     "react": "^16.8.6",
     "react-app-polyfill": "^1.0.1",
     "react-data-table-component": "^6.0.0",
-    "react-dev-utils": "^9.0.1",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.8.6",
     "react-ga": "^2.7.0",
     "react-id-swiper": "^2.4.0",
